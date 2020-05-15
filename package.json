@@ -1,14 +1,14 @@
 {
-  "name": "abphelper-gui",
-  "productName": "AbpHelper",
-  "version": "0.2.4",
-  "description": "AbpHelper is a tool to help you with developing Abp vNext applications.",
+  "name": "gitea-helper",
+  "productName": "GiteaHelper",
+  "version": "0.0.1",
+  "description": "GiteaHelper is a tool that help you with Gitea.",
   "main": "main.js",
   "bin": "cli.js",
   "build": {
-    "appId": "org.easyabp.abphelper",
-    "productName": "AbpHelper",
-    "copyright": "Copyright © 2020 EasyAbp",
+    "appId": "vip.neppure.gitea-helper",
+    "productName": "GiteaHelper",
+    "copyright": "Copyright © 2020 NepPure",
     "icon": "assets/app-icon/win/app.ico",
     "asar": true,
     "win": {
@@ -31,13 +31,12 @@
     "prepack": "check-for-leaks",
     "prepush": "check-for-leaks"
   },
-  "repository": "https://github.com/EasyAbp/AbpHelper.GUI",
+  "repository": "https://github.com/NepPure/GiteaHelper",
   "keywords": [
-    "EasyAbp",
-    "Abp",
+    "Gitea",
     "Helper"
   ],
-  "author": "EasyAbp",
+  "author": "NepPure",
   "license": "Apache 2.0",
   "devDependencies": {
     "@octokit/rest": "^17.1.0",
