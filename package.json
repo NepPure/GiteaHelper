@@ -37,7 +37,7 @@
     "Helper"
   ],
   "author": "NepPure",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "devDependencies": {
     "@octokit/rest": "^17.1.0",
     "chai": "^4.2.0",
